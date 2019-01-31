@@ -1,6 +1,6 @@
 pragma solidity ^0.4.21;
 //root:0x2be44bd0510c9b004f8f54e675a4f889700de294
-contract E2Bmod{
+contract E2B{
     uint rate; // * 10000
     bool settled;
  
@@ -14,7 +14,7 @@ contract E2Bmod{
     function getBalance() public returns(uint){
         return address(this).balance;
     }
-    function E2Bmod(address address_i, uint _rate, bytes20 _root){
+    function E2B(address address_i, uint _rate, bytes20 _root){
         alice = msg.sender;
         ingrid = address_i;
         // balanceof[msg.sender] = msg.value;
