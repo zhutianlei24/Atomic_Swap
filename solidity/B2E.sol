@@ -27,7 +27,7 @@ contract B2E{
     //Ingrid's compressedpubkey = 0x0367d4288c194a68a181c163f13177de9297b9afcae674cb99d21b047b6cc33e42
     //Bob's pubkey = 0x2587ea3b5bac342cc64c56a74b12bea5d06eec929a768f1e3a1d5ee1eb2b44ae9b5e8a88ac0f88dfe8c769e679ec0bf5d1a9f01d44f0e54c870c3749cdaa6d7d
     //Fhash= 0x3dcd7d87904c9cb7f4b79f36b5a03f96e2e729284c09856238d5353e1182b002
-    function B2Emod(address _ingrid_eth_pk, bytes _bob_btc_pk, bytes _hash, uint _min, uint _rate, uint _deltaR, uint _bfund) public 
+    function B2E(address _ingrid_eth_pk, bytes _bob_btc_pk, bytes _hash, uint _min, uint _rate, uint _deltaR, uint _bfund) public 
     {
 
         alice = msg.sender;
