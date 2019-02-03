@@ -46,9 +46,7 @@ contract E2BMA{
         settled = true;
     }
     function Payout(string a){
-
         require(msg.sender == ingrid);
-        assert(balanceof[alice] > v);
         bytes20 key = hash160forstring(a);
         uint v = MA[key];
         assert(v != 0);
